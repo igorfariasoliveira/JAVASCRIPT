@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hora do dia</h1>
+    </header>
+    <section>
+        <div class="numeros">
+            <label for="inicio">Inicio: </label>
+            <input type="number" name="inicio" id="txti">
+        </div>
+        <div class="numeros">
+            <label for="fim">Fim: </label>
+            <input type="number" name="fim" id="fim">
+        </div>
+        <div class="numeros">
+            <label for="passo">Passo</label>
+            <input type="number" name="passo" id="passo">
+        </div>
+        <div class="numeros">
+            <input type="button" value="Contar" onclick="verificar()">
+        </div>
+        <div id="calculo">
+            <p>Preparando a contagem...</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

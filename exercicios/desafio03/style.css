@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    
+    background-color: rgb(51, 1, 190);
+    font: normal 15pt arial;
+}
+h1 {
+    color: white;
+}
+header {
+    text-align: center;
+    margin-top: 100px;
+}
+section {
+    width: 500px;
+    
+    background: rgb(252, 252, 252);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.432);
+}
+
+.texto {
+    padding: 15px;
+}
+.caixa{
+    padding: 10px;  
+}
+#tela {
+    width: 250px;
+}
+#txt {
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    padding-top: 10px;
+    font-style: italic; 
+    color: white;
+}
